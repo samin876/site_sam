@@ -1,0 +1,133 @@
+
+*{
+    overflow: auto;
+}
+
+body{
+    background-color: #8ba1bb;
+    font-family: Arial;
+}
+p.categorie{
+    background-color: black;
+    color:white;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 8px;
+    margin-bottom: 0px;
+}
+.T_recette{
+    text-align: center;
+    margin-bottom: -20px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 60px;
+}
+/* ---- Mon commentaire CSS----*/
+.contenu{
+    background-color: white;
+    margin: 0px 60px 0px 60px;
+    padding: 60px;
+    min-width: 350px;
+    box-shadow: 0px 0px 10px 12px rgba(0, 0,0, 0.2);   
+}
+h1{
+    text-align: center;
+}
+.description{
+    text-align: center;
+}
+.separateur{
+    width: 100px;
+    height: 1px;
+    background-color: #8ba1bb;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img_g{
+  width: 200%;
+  display:block;
+  max-height: 400px;
+  object-fit: cover;
+  min-height: 200px;
+}
+.info{
+    position: relative;
+}
+table.info{
+    position:absolute;
+    bottom: 0px; 
+    width:31%; 
+    color: white; 
+    background-color: #6c829d; 
+    opacity:0.6;
+}
+table.info td{
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+}
+table.info th{
+    font-size: 14px;
+    vertical-align: bottom;
+    padding-bottom: 8px;
+}
+
+.colonn1,.colonn2{
+    width: 45%;
+}
+.colonn1{
+    display: inline-block;  
+    margin-right: 10%;
+    
+}
+
+.colonn2{
+    float: right;
+}
+
+.colonne{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 20px;
+    border-bottom: 5px solid #6c829d;
+    padding: 5px;
+
+}
+.element p{
+    border: 1px solid lightgray;
+    padding: 8px 0px;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    
+}
+
+.preparation p.numero{
+    background-color: #6c829d;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0px;
+}
+
+.preparation td{
+    vertical-align: top;
+}
+
+.preparation td.preparation_etape{
+    font-size: 14px;
+    padding-left: 10px;
+}
+.preparation tr{
+    height: 40px;
+}
+
